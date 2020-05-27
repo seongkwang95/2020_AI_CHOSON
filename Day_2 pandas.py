@@ -11,6 +11,6 @@ print(temp)
 
 import matplotlib.pyplot as plt
 plt.plot(temp['A'], dashes=[6,2])
-plt.xlim(0,5))
-plt.ylim(0,10))
+plt.xlim(0,5)
+plt.ylim(0,10)
 plt.show()

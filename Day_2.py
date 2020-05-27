@@ -8,16 +8,20 @@ else:
     for i in range(0,10):
         print(i)
 
-        temp=0
-        while True:
-            temp=temp+1
-            print(temp)
-            if temp>40:
-                break
-                while temp < 60:
-                    temp += 1
-                    print(temp)
-                    def add_function(x):
-                        y=x+3
-                        return y print(add_function(3))
+temp = 0
+while True:
+    temp=temp+1
+    print(temp)
+    if temp>40:
+     break
+
+while temp < 60:
+        temp += 1
+        print(temp)
+
+def add_function(x):
+    y=x+3
+    return y
+print(add_function(3))
+
 
