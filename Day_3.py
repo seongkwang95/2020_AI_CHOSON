@@ -35,9 +35,8 @@ print(x_train[0], type(y_train[0]))
 
 temp_y =[]
 for one_y_val in y_train: # 6만개의 y train 값중 하나를 가져온다
-    zero_array =np.zeros(10)  #zero array라는 공간이 [0,0,0,0,0,0,0,0,0,0,0,0]로 이루어져있다
+    zero_array =np.zeros(10)  #zero array라는 공간이 [0,0,0,0,0,0,0,0,0,0,0]로 이루어져있다
     zero_array[one_y_val] =1  #0~9의 수중에 해당하는 수에 1료 표시
     temp_y.append(zero_array)  #생성된 값은 array에 저장
 temp_y = np.array(temp_y)
 print(type(temp_y))
-
